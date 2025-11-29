@@ -194,13 +194,13 @@
                                                 </div>
                                                 -->
                                             <div class="book-meta">
-                                                <i class=" fas fa-align-left "></i>
+                                                <i class=" fas fa-building "></i>
                                                 <?php echo htmlspecialchars($book->nama_penerbit ?? '-'); ?>
                                             </div>
 
                                             <!-- Deskripsi singkat (maksimal 3 baris) -->
                                             <div class="deskripsi book-meta mt-3 ">
-                                                <i class="fas fa-align-left"></i>
+                                                <i class="fas fa-file-alt"></i>
                                                 <?php
                                                 if (!empty($book->deskripsi)) {
                                                     echo htmlspecialchars($book->deskripsi);
